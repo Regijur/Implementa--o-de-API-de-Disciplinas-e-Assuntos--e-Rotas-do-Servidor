@@ -1,0 +1,34 @@
+[
+    {
+        "Disciplina": "Matematica",
+        "Assuntos": ["Conjuntos","Funções","Logarítmos","Exponenciais","Matemática Financeira"]
+    },
+    {
+        "Disciplina": "Portugues",
+        "Assuntos": ["Gramática","Figuras de Linguagem","Classes Gramaticais","Interpretação Textual"]
+    },
+    {
+        "Disciplina": "Geografia",
+        "Assuntos": ["Intemperismo","Blocos Econômicos","O Planeta Terra","Agentes Modificadores do Relevo"]
+    },
+    {
+        "Disciplina": "Fisica",
+        "Assuntos": ["Cinemática","Dinâmica","Termostática","Termodinâmica","Eletrodinâmica","Eletrostática"]
+    },
+    {
+        "Disciplina": "Historia",
+        "Assuntos": ["Guerras Napoleônicas","Império Bizantino","Iluminismo","Revolução Francesa","História do Brasil","Primeira Guerra Mundial", "Segunda Guerra Mundial"]
+    },
+    {
+        "Disciplina": "Artes",
+        "Assuntos": ["Neoclassicismo","Romantismo","Arte Erudita","Arte Abstrata","Semana da Arte Moderna","Iluminismo","A História da Arte"]
+    },
+    {
+        "Disciplina": "Quimica",
+        "Assuntos": ["Química Inorgânica","Termoquímica","Eletroquímica","Estequiometria","Química Orgânica"]
+    },
+    {
+        "Disciplina": "Biologia",
+        "Assuntos": ["Anatomia","Fisiologia","Biologia Molecular","Botânica","Bioquímica","Ecologia","Evolução","Genética","Fisiologia"]
+    }
+]

@@ -7,10 +7,10 @@ O intuito desse projeto foi o de implementar uma **API** que basicamente retorna
     - No diretório '/:Nome_da_Disciplina' retorna os assuntos estudados pela disciplina passada como parâmetro
 
 * **Post:**
-    - No diretório padrão adiciona uma nova disciplina e seus assuntos, que devem ser passadas em um objeto pelo body, não é possível adicionar uma disciplina que já está cadastrada, nem uma disciplina sem passar os conteúdos
+    - No diretório padrão adiciona uma nova disciplina e seus assuntos, que devem ser passadas em um objeto pelo body, não é possível adicionar uma disciplina que já está cadastrada, nem uma disciplina sem passar os assuntos
 
 * **Put:**
-    - No diretório padrão atualiza os assuntos de uma disciplina passada no body, caso a disciplina não exista é retornado um erro
+    - No diretório padrão atualiza os assuntos de uma disciplina passada no body, caso a disciplina não esteja cadastrada é retornado um erro
 
 
 * **Delete:**

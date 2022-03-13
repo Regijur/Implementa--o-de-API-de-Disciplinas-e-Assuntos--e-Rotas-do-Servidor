@@ -13,6 +13,6 @@ app.use(cors())
 app.use(routes)
 
 
-app.listen(5500, () =>{
-    console.log('Express started at http://localhoost:5500')
+app.listen(5000, () =>{
+    console.log('Express started at http://localhoost:5000')
 })

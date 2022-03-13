@@ -8,24 +8,18 @@ routes.get('/', (req, res) => {
 })
 
 routes.get('/disciplines', (req, res) => {
-    const disciplines = subjects.map((e) => {
-        return e.Disciplina
-    })
     
-    if(disciplines == undefined) return res.status(400).json("Nenhuma disciplina cadastrada").end()
+    if(subjects.length == 0) return res.status(400).json("Nenhuma disciplina cadastrada").end()
     
-    return res.json(disciplines)
+    return res.json(subjects.forEach(e => e.Disciplina))
 })
 
 routes.get('/:disciplineName', (req, res) => {
     const {disciplineName} = req.params
-    const discipline = subjects.find((e) => {
-        return e.Disciplina == disciplineName
-    })
 
-    if(discipline == undefined) return res.status(400).json("Disciplina não cadastrada").end()
+    if(!subjects.some(e => e.Disciplina == disciplineName)) return res.status(400).json("Disciplina não cadastrada").end()
 
-    return res.json(discipline)
+    return res.json(disciplineName)
 })
 
 routes.post('/', (req, res) => {
@@ -72,7 +66,9 @@ routes.put('/', (req, res) => {
 
 routes.delete('/:discipline', (req, res) => {
     const {discipline} = req.params
-    
+    if(!subjects.some(e => e.Disciplina == discipline)){
+        return res.status(400).json("A disciplina não está cadastrada").end()
+    } 
     for (i = 0; i < subjects.length; i++){
         if(subjects[i].Disciplina == discipline){
             subjects.splice(i,1)

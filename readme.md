@@ -16,4 +16,8 @@ O intuito desse projeto foi o de implementar uma **API** que basicamente retorna
 * **Delete:**
     - No diretório '/:Nome_da_Disciplina' deleta a disciplina passada como parâmetro, caso a disciplina não esteja cadastrada retorna erro
 
-Desenvolvido por **Reginaldo Mota (O Régis)**
+# Consumindo a API
+
+Eu já criei um projeto que consome essa API, é uma interface web que permite atualização, adição e remoção de dados. [Clique para acessar o repositório com a interface que consome essa API](https://github.com/Regijur/Cosumindo-a-API-de-Disciplinas)
+
+Desenvolvido por [**Reginaldo Mota (O Régis)**](https://oregis.dev.br)

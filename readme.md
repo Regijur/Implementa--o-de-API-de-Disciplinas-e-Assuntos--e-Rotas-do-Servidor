@@ -1,4 +1,5 @@
 # Implementação de API e Rotas do Servidor
+_Desenvolvido por [**Reginaldo Mota (O Régis)**](https://oregis.dev.br)_
 
 O intuito desse projeto foi o de implementar uma **API** que basicamente retorna para o usuário um **JSON** com algumas disciplinas e assuntos estudados nas mesmas, e o servidor com as implementações das rotas:
 * **Get:**
@@ -19,5 +20,3 @@ O intuito desse projeto foi o de implementar uma **API** que basicamente retorna
 # Consumindo a API
 
 Eu já criei um projeto que consome essa API, é uma interface web que permite atualização, adição e remoção de dados. [Clique para acessar o repositório com a interface que consome essa API](https://github.com/Regijur/Cosumindo-a-API-de-Disciplinas)
-
-Desenvolvido por [**Reginaldo Mota (O Régis)**](https://oregis.dev.br)

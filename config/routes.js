@@ -39,8 +39,12 @@ routes.post('/', (req, res) => {
     if(subjects.find(e => e.Disciplina == req.body.Disciplina) != undefined){
         return res.status(400).json("Elemento já existente").end()
     }
-
-    subjects.push(req.body)
+    subjects.push(
+        {
+            Disciplina: req.body.Disciplina,
+            Assuntos: req.body.Assuntos
+        }
+    )
     return res.json(subjects)  
 
 })

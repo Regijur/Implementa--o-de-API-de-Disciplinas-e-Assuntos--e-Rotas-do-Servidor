@@ -1,34 +1,91 @@
 [
     {
-        "Disciplina": "Matematica",
-        "Assuntos": ["Conjuntos","Funções","Logarítmos","Exponenciais","Matemática Financeira"]
+      "Disciplina": "Matematica",
+      "Assuntos": [
+        "Conjuntos",
+        "Razão e Proporção",
+        "Realações, Funções, Equações e Inequações",
+        "Progressões",
+        "Análise Combinatória",
+        "Matrizes, Determinantes e Sistemas Lineares",
+        "Polinômios e Equações Algébricas",
+        "Geometria Plana",
+        "Geometria Espacial",
+        "Geometria Analítica",
+        "Matemática Financeira"
+      ]
     },
     {
-        "Disciplina": "Portugues",
-        "Assuntos": ["Gramática","Figuras de Linguagem","Classes Gramaticais","Interpretação Textual"]
+      "Disciplina": "Fisica",
+      "Assuntos": [
+        "Cinemática",
+        "Dinâmica",
+        "Termostática",
+        "Termodinâmica",
+        "Eletrodinâmica",
+        "Eletrostática"
+      ]
     },
     {
-        "Disciplina": "Geografia",
-        "Assuntos": ["Intemperismo","Blocos Econômicos","O Planeta Terra","Agentes Modificadores do Relevo"]
+      "Disciplina": "Historia",
+      "Assuntos": [
+        "Guerras Napoleônicas",
+        "Império Bizantino",
+        "Iluminismo",
+        "Revolução Francesa",
+        "História do Brasil",
+        "Primeira Guerra Mundial",
+        "Segunda Guerra Mundial"
+      ]
     },
     {
-        "Disciplina": "Fisica",
-        "Assuntos": ["Cinemática","Dinâmica","Termostática","Termodinâmica","Eletrodinâmica","Eletrostática"]
+      "Disciplina": "Artes",
+      "Assuntos": [
+        "Neoclassicismo",
+        "Romantismo",
+        "Arte Erudita",
+        "Arte Abstrata",
+        "Semana da Arte Moderna",
+        "Iluminismo",
+        "A História da Arte"
+      ]
     },
     {
-        "Disciplina": "Historia",
-        "Assuntos": ["Guerras Napoleônicas","Império Bizantino","Iluminismo","Revolução Francesa","História do Brasil","Primeira Guerra Mundial", "Segunda Guerra Mundial"]
+      "Disciplina": "Português",
+      "Assuntos": [
+        "Conectivos",
+        "Classes Gramaticais",
+        "Gêneros Textuais",
+        "Figuras de Linguagem",
+        "Funções da Linguagem",
+        "Interpretação de Texto"
+      ]
     },
     {
-        "Disciplina": "Artes",
-        "Assuntos": ["Neoclassicismo","Romantismo","Arte Erudita","Arte Abstrata","Semana da Arte Moderna","Iluminismo","A História da Arte"]
+      "Disciplina": "Química",
+      "Assuntos": [
+        "Estados físicos da matéria e suas transformações",
+        "Propriedades da matéria",
+        "Características de substâncias e misturas",
+        "Métodos de separação de misturas",
+        "O estudo do átomo",
+        "Tabela periódica",
+        "Ligações químicas",
+        "Geometria molecular, polaridade e forças intermoleculares"
+      ]
     },
     {
-        "Disciplina": "Quimica",
-        "Assuntos": ["Química Inorgânica","Termoquímica","Eletroquímica","Estequiometria","Química Orgânica"]
-    },
-    {
-        "Disciplina": "Biologia",
-        "Assuntos": ["Anatomia","Fisiologia","Biologia Molecular","Botânica","Bioquímica","Ecologia","Evolução","Genética","Fisiologia"]
+      "Disciplina": "Biologia",
+      "Assuntos": [
+        "Anatomia",
+        "Biologia Molecular",
+        "Bioquímica",
+        "Botânica",
+        "Ecologia",
+        "Evolução",
+        "Fisiologia",
+        "Fisiologia",
+        "Genética"
+      ]
     }
-]
+  ]

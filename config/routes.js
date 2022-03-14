@@ -57,7 +57,7 @@ routes.put('/', (req, res) => {
                 e.Assuntos = assuntos;
             }
         })
-        return res.json(subjects)  
+        return res.res(200).json(subjects)  
     }
     
     return res.status(400).json("Elemento não existente").end()
